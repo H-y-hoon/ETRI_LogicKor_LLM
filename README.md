@@ -1,4 +1,4 @@
-# Qwen3-8B LogicKor SFT Reproduction Guide
+# Qwen3-8B LogicKor
 
 Qwen3-8B 기반 LogicKor SFT 모델을 재현/평가 최소 코드 패키지입니다
 모델 가중치와 학습 데이터는 Google Drive로 공유드립니다
