@@ -27,12 +27,12 @@ scripts/          학습부터 scoring까지 실행 예시 스크립트
   models/qwen3_8b_sft_high/merged/
 ```
 
-평가만 수행하려면 `models/qwen3_8b_sft_high/merged/`가 있으면 됩니다
-재학습까지 수행하려면 `data/logickor_sft_high_converted.jsonl`이 필요합니다
+평가만 수행하려면 `models/qwen3_8b_sft_high/merged/`가 필요
+재학습까지 수행하려면 `data/logickor_sft_high_converted.jsonl`이 필요함
 
 ## 3. 가상환경
 
-이 프로젝트는 학습과 추론/평가 환경을 분리해서 사용했습니다
+학습과 추론/평가 환경을 분리해서 진행
 
 | 환경 | 용도 | requirements |
 |---|---|---|
@@ -60,7 +60,7 @@ conda activate etri-infer
 pip install -r requirements/etri-infer.txt
 ```
 
-> 실제 CUDA/드라이버/vLLM 조합에 따라 PyTorch와 vLLM 설치 버전은 조정이 필요할 수 있습니다
+> 실제 CUDA/드라이버/vLLM 조합에 따라 PyTorch와 vLLM 설치 버전은 조정이 필요할 수 있음
 
 ## 4. 디렉토리 배치
 
