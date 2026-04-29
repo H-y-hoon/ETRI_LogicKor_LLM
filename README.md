@@ -2,6 +2,7 @@
 
 이 저장소는 Qwen3-8B 기반 LogicKor SFT 모델을 재현/평가하기 위한 최소 코드 패키지입니다.
 대용량 모델 가중치와 학습 데이터는 GitHub에 포함하지 않고 별도 Google Drive 링크로 공유하는 것을 전제로 합니다.
+- 가중치 및 학습데이터 링크: https://drive.google.com/drive/folders/15bH5YiUSgpqKj9z8SV4SePUcTA8xylIw?usp=sharing
 
 ## 1. 포함/제외 범위
 
